@@ -19,5 +19,5 @@ if st.button("Run"):
     # Display the image based on the selected variables
     display_image(haircolor, age, expression)
 
-st.text("@InProceedings{Shoshan_2021_ICCV,\n    author    = {Shoshan, Alon and Bhonker, Nadav and Kviatkovsky, Igor and Medioni, G\'erard},\n    title     = {GAN-Control: Explicitly Controllable GANs},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2021},}")
-st.text("Designed and Implemented by Deep Learning Gang\nMs. Apinya Sriyota\t6322771534\nMr. Thanakit Mettarikanon\t6322772045\nMs. Isariya Kerdkla\t6322773092\nMr. Chanawong Karoon-ngampun\t6322774025")
+st.text("\n\n\n@InProceedings{Shoshan_2021_ICCV,\n    author    = {Shoshan, Alon and Bhonker, Nadav and Kviatkovsky, Igor and Medioni, G\'erard},\n    title     = {GAN-Control: Explicitly Controllable GANs},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2021},}")
+st.text("Designed and Implemented by Deep Learning Gang\n\tMs. Apinya Sriyota\t\t6322771534\n\tMr. Thanakit Mettarikanon\t6322772045\n\tMs. Isariya Kerdkla\t\t6322773092\n\tMr. Chanawong Karoon-ngampun\t6322774025")
