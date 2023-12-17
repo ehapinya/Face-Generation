@@ -11,7 +11,7 @@ def display_image(haircolor, age, expression):
 st.title("Face Generator using GAN-Control")
 # Dropdowns for variable selection
 haircolor = st.selectbox("Select Hair Color", ["Default", "Blond", "Red", "Black"])
-age = st.selectbox("Select Age (years)", ["Default", "15", "45", 75"])
+age = st.selectbox("Select Age (years)", ["Default", "15", "45", "75"])
 expression = st.selectbox("Select Expression", ["Default", "Neutral", "Smile", "Shock"])
 
 # # Button to trigger image generation
