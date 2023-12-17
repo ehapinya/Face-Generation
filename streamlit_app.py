@@ -13,6 +13,13 @@ st.title("Face Generator using GAN-Control")
 haircolor = st.selectbox("Select Hair Color", ["Default", "Blond", "Red", "Black"])
 age = st.selectbox("Select Age (years)", ["Default", "15", "45", "75"])
 expression = st.selectbox("Select Expression", ["Default", "Neutral", "Smile", "Shock"])
+st.footer("@InProceedings{Shoshan_2021_ICCV,
+    author    = {Shoshan, Alon and Bhonker, Nadav and Kviatkovsky, Igor and Medioni, G\'erard},
+    title     = {GAN-Control: Explicitly Controllable GANs},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+}")
 
 # # Button to trigger image generation
 if st.button("Run"):
