@@ -21,60 +21,17 @@
 	<body class="shortpage">
 		<div id="content" class="form">
             <h1 style="font-size: 150%; margin-left:20px;"><b> This is the result</b><br></h1>
-            <h3 class="center"> Welcome <?php echo $firstname, " ",$lastname,"!!!"; ?> </h3>
             <div class="center">
                 <h4>
                 <?php   
-                        if (isset($_POST['firstname'])) {
-                            $firstname = $_POST['firstname'];
+                        if (isset($_POST['haircolor'])) {
+                            $haircolor = $_POST['haircolor'];
                         }
-                        if (isset($_POST['lastname'])) {
-                            $lastname = $_POST['lastname'];
+                        if (isset($_POST['age'])) {
+                            $lastname = $_POST['age'];
                         }
-                        if (isset($_POST['DOB'])) {
-                            $dob = $_POST['DOB'];
-                        }
-                        else {
-                            $dob = '';
-                        }
-                        if (isset($_POST['phonenum'])) {
-                            $phone_no = $_POST['phonenum'];
-                        }
-                        else {
-                            $phone_no = '';
-                        }
-                        if (isset($_POST['email'])) {
-                            $email = $_POST['email'];
-                        }
-                        if (isset($_POST['citizenID'])) {
-                            $citizen_id = $_POST['citizenID'];
-                        }
-                        else {
-                            $citizen_id = '';
-                        }
-                        if (isset($_POST['username'])) {
-                            $username = $_POST['username'];
-                        }
-                        else {
-                            $username = '';
-                        }
-                        if (isset($_POST['passwd'])) {
-                            $password = $_POST['passwd'];
-                        }
-                        else {
-                            $password = "";
-                        }
-                        if (isset($_POST['usergroup'])) {
-                            $usergroup = $_POST['usergroup'];
-                        }
-                        else {
-                            $usergroup = "";
-                        }
-                        if ((($dob == '') || ($phone_no == '') || ($citizen_id == '') || ($username == '') || ($password == ''))) {
-                            $usergroup = "";
-                        }
-                        if (isset($_POST['gender'])) {
-                            $gender = $_POST['gender'];
+                        if (isset($_POST['illumination'])) {
+                            $illumination = $_POST['illumination'];
                         }
                       
                 ?>
